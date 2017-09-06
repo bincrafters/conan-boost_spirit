@@ -1,5 +1,6 @@
 from conans import ConanFile, tools, os
 
+
 class BoostSpiritConan(ConanFile):
     name = "Boost.Spirit"
     version = "1.64.0"
