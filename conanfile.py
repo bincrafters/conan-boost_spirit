@@ -1,10 +1,9 @@
-from conans import ConanFile, tools, os
+from conans import ConanFile
 
 
 class BoostSpiritConan(ConanFile):
     name = "Boost.Spirit"
     version = "1.65.1"
-    generators = "boost"
     url = "https://github.com/bincrafters/conan-boost-spirit"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
