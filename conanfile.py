@@ -8,7 +8,8 @@ class BoostSpiritConan(ConanFile):
     name = "boost_spirit"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_spirit"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["spirit"]
     is_in_cycle_group = True
     is_header_only = True
