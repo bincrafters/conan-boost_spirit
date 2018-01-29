@@ -2,7 +2,7 @@
 
 | Bintray | Windows | Linux | OSX |
 |---------|------------|--------|------|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_spirit%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_spirit%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_spirit?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-spirit)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_spirit.svg)](https://travis-ci.org/bincrafters/conan-boost_spirit)|[![CircleCI](https://circleci.com/gh/bincrafters/conan-boost_spirit.svg?style=svg)](https://circleci.com/gh/bincrafters/conan-boost_spirit)|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_spirit%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_spirit%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_spirit?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-spirit)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_spirit.svg)](https://travis-ci.org/bincrafters/conan-boost_spirit)|N/A|
 
 ## Conan.io Information
 
