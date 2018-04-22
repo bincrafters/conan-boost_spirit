@@ -10,7 +10,7 @@ class TestPackageConan(ConanFile):
     generators = "cmake"
 
     def requirements(self):
-        boost_deps = ['algorithm', 'array', 'assert', 'concept_check', 'config', 'core', 'endian', 'filesystem', 'foreach', 'function', 'function_types', 'fusion', 'integer', 'io', 'iostreams', 'iterator', 'lexical_cast', 'locale', 'math', 'move', 'mpl', 'optional', 'phoenix', 'pool', 'predef', 'preprocessor', 'proto', 'range', 'regex', 'serialization', 'smart_ptr', 'spirit', 'static_assert', 'thread', 'throw_exception', 'tti', 'type_traits', 'typeof', 'unordered', 'utility', 'variant']
+        boost_deps = ['algorithm', 'array', 'assert', 'concept_check', 'config', 'core', 'endian', 'filesystem', 'foreach', 'function', 'function_types', 'fusion', 'integer', 'io', 'iostreams', 'iterator', 'lexical_cast', 'locale', 'math', 'move', 'mpl', 'optional', 'phoenix', 'predef', 'preprocessor', 'proto', 'range', 'regex', 'smart_ptr', 'static_assert', 'throw_exception', 'tti', 'type_traits', 'typeof', 'unordered', 'utility', 'variant']
         for lib in boost_deps:
             self.requires("boost_" + lib + "/1.67.0@" + self.user + "/" + self.channel)
 

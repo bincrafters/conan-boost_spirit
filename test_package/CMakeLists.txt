@@ -33,17 +33,13 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_mpl
   CONAN_PKG::boost_optional
   CONAN_PKG::boost_phoenix
-  CONAN_PKG::boost_pool
   CONAN_PKG::boost_predef
   CONAN_PKG::boost_preprocessor
   CONAN_PKG::boost_proto
   CONAN_PKG::boost_range
   CONAN_PKG::boost_regex
-  CONAN_PKG::boost_serialization
   CONAN_PKG::boost_smart_ptr
-  CONAN_PKG::boost_spirit
   CONAN_PKG::boost_static_assert
-  CONAN_PKG::boost_thread
   CONAN_PKG::boost_throw_exception
   CONAN_PKG::boost_tti
   CONAN_PKG::boost_type_traits
