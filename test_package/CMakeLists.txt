@@ -39,6 +39,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_range
   CONAN_PKG::boost_regex
   CONAN_PKG::boost_smart_ptr
+  CONAN_PKG::boost_spirit
   CONAN_PKG::boost_static_assert
   CONAN_PKG::boost_throw_exception
   CONAN_PKG::boost_tti
