@@ -11,6 +11,7 @@ class BoostSpiritConan(base.BoostBaseConan):
     url = "https://github.com/bincrafters/conan-spirit"
     lib_short_names = ["spirit"]
     header_only_libs = ["spirit"]
+    cycle_group = "boost_level11group"
     b2_requires = [
         "boost_level11group",
     ]
